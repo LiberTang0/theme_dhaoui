@@ -1,0 +1,115 @@
+<openerp>
+	<data>
+		<template id="custom_contact" inherit_id="website.contactus"
+			name="Custom Contact">
+			<!-- Assign an id -->
+			<xpath expr="//div[@id='wrap']" position="replace">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 text-center">
+							<h2 class="section-heading">Contact Us</h2>
+							<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12">
+							<form name="sentMessage" id="contactForm">
+								<div id="wrap">
+									<div class="oe_structure" data-oe-id="2192" data-oe-model="ir.ui.view"
+										data-oe-field="arch" data-oe-xpath="/t[1]/t[1]/div[1]/div[1]"></div>
+									<div class="container">
+										<h1 data-oe-id="2192" data-oe-model="ir.ui.view"
+											data-oe-field="arch" data-oe-xpath="/t[1]/t[1]/div[1]/div[2]/h1[1]">Contact us</h1>
+										<div class="row">
+											<div class="col-md-8">
+												<div class="oe_structure" data-oe-id="2192"
+													data-oe-model="ir.ui.view" data-oe-field="arch"
+													data-oe-xpath="/t[1]/t[1]/div[1]/div[2]/div[1]/div[1]/div[1]">
+													<div>
+														<p>Contact us about anything related to our company or
+															services. 
+														</p>
+														<p>We'll do our best to get back to you as soon as
+															possible. 
+														</p>
+													</div>
+												</div>
+												<div class="form-group">
+													<textarea class="form-control" placeholder="Your Message *"
+														id="message" required="" data-validation-required-message="Please enter a message."
+														aria-invalid="false"></textarea>
+													<p class="help-block text-danger"></p>
+												</div>
+												<div class="text-center mt64" name="mail_button">
+													<a href="mailto:accueil.fleurettunis@topnet.tn" class="btn btn-primary"
+														data-oe-id="2192" data-oe-model="ir.ui.view"
+														data-oe-field="arch"
+														data-oe-xpath="/t[1]/t[1]/div[1]/div[2]/div[1]/div[1]/div[2]/a[1]">Send us an email</a>
+												</div>
+											</div>
+											<div class="col-md-4 mb32">
+												<div groups="base.group_website_publisher" class="pull-right css_editable_mode_hidden">
+													<a class="btn btm-sm btn-default"
+														href="/web#return_label=Website&amp;model=res.company&amp;id=1">Change address</a>
+												</div>
+												<address itemscope="itemscope" itemtype="http://schema.org/Organization">
+													<div data-oe-model="res.company" data-oe-id="1"
+														data-oe-field="partner_id" data-oe-type="contact"
+														data-oe-expression="res_company.partner_id"
+														data-oe-translate="0">
+														<address class="mb0" itemscope="itemscope"
+															itemtype="http://schema.org/Organization">
+															<div>
+																<span itemprop="name">Fleuret Production Tunisie</span>
+															</div>
+															<div itemprop="address" itemscope="itemscope"
+																itemtype="http://schema.org/PostalAddress">
+																<div class="css_editable_mode_hidden">
+																	<i class="fa fa-phone"></i>
+																	<span itemprop="telephone">+216 71 409 449</span>
+																</div>
+																<div class="css_editable_mode_hidden">
+																	<i class="fa fa-file-text-o"></i>
+																	<span itemprop="faxNumber">+216 71 409 439</span>
+																</div>
+																<div class="css_editable_mode_hidden">
+																	<i class="fa fa-envelope"></i>
+																	<span itemprop="email">accueil.fleurettunis@topnet.tn
+																	</span>
+																</div>
+															</div>
+														</address>
+													</div>
+												</address>
+												<a
+													href="https://maps.google.com/maps?q=Lot+N%C2%B011+rue+Ben+Arous%2C+Fouchana+%2C+Tunisia&amp;z=10"
+													target="_BLANK">
+													<img class="thumbnail img-responsive"
+														src="//maps.googleapis.com/maps/api/staticmap?sensor=false&amp;zoom=8&amp;center=Lot+N%C2%B011+rue+Ben+Arous%2C+Fouchana+%2C+Tunisia&amp;size=298x298"
+														data-oe-id="2191" data-oe-model="ir.ui.view"
+														data-oe-field="arch" data-oe-xpath="/t[1]/a[1]/img[1]"/>
+												</a>
+											</div>
+										</div>
+									</div>
+									<div class="oe_structure" data-oe-id="2192" data-oe-model="ir.ui.view"
+										data-oe-field="arch" data-oe-xpath="/t[1]/t[1]/div[1]/div[3]"></div>
+								</div>
+							</form>
+						</div>
+					</div>
+				</div>
+			</xpath>
+		</template>
+		<template id="show_sign_in_inherit" customize_show="True"
+			inherit_id="website.show_sign_in" name="Show Sign In">
+			<xpath expr="//ul[@id='top_menu']" position="replace">
+			</xpath>
+		</template>
+		<template id="layout_logo_show_inherit" inherit_id="website.layout_logo_show"
+			customize_show="True" name="Show Logo">
+			<xpath expr="//header//a[@class='navbar-brand logo']" position="replace">
+			</xpath>
+		</template>
+	</data>
+</openerp>

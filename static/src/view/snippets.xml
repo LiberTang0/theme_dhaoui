@@ -1,0 +1,1237 @@
+<openerp>
+	<data>
+		<template id="snippet_carousel" name="carousel snippet">
+			<section class="snippet_carousel" id="headsection">
+				<div
+					class="s_slide_banner carousel slide o_animation o_displayed_top o_displayed_middle o_displayed_bottom"
+					data-interval="10000" id="myCarousel1" style="height: 448px; overflow: hidden;">
+					<ol class="carousel-indicators">
+						<li class="active" data-slide-to="0" data-target="#myCarousel1"/>
+						<li data-slide-to="1" data-target="#myCarousel1"/>
+						<li data-slide-to="2" data-target="#myCarousel1"/>
+					</ol>
+					<div class="carousel-inner">
+						<div class="item active"
+							style="background-image: url('/theme_helmi/static/src/img/main/dark2.jpg')">
+							<div class="slider-content">
+								<div class="row content text-center header-home">
+									<div class="intro-text">
+										<div class="intro-lead-in">Welcome To Our Studio!</div>
+										<div class="intro-heading">It's Nice To Meet You</div>
+										<a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item"
+							style="background-image: url('/theme_helmi/static/src/img/main/dark.jpg')">
+							<div class="slider-content">
+								<div class="row content header-home">
+									<div class="intro-text text-center">
+										<div class="intro-lead-in">Welcome To Our Studio!</div>
+										<div class="intro-heading">It's Nice To Meet You</div>
+										<a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="item"
+							style="background-image: url('/theme_helmi/static/src/img/header-bg.jpg')">
+							<div class="slider-content">
+								<div class="row content header-home">
+									<div class="intro-text text-center">
+										<div class="intro-lead-in">Welcome To Our Studio!</div>
+										<div class="intro-heading">It's Nice To Meet You</div>
+										<a href="#services" class="page-scroll btn btn-xl">Tell Me More</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="carousel-control left" data-slide="prev"
+						data-target="#myCarousel1" href="#myCarousel1" style="width: 10%">
+						<i class="fa fa-chevron-left" style=""/>
+					</div>
+					<div class="carousel-control right" data-slide="next"
+						data-target="#myCarousel1" href="#myCarousel1" style="width: 10%">
+						<i class="fa fa-chevron-right" style=""/>
+					</div>
+				</div>
+				<div class="oe_structure"></div>
+			</section>
+		</template>
+		<template id="Servicespes_testimonial" name="Services snippet">
+			<section class="main-section" id="servicepres"><!--main-section-start -->
+				<div class="container">
+					<h2>Services</h2>
+					<h6>We offer exceptional service with complimentary hugs.</h6>
+					<div class="row">
+						<div class="col-lg-4 col-sm-6 wow fadeInLeft delay-09s animated"
+							style="visibility: visible; animation-name: fadeInLeft;">
+							<div class="service-list">
+								<div class="service-list-col1">
+									<i class="fa-paw"></i>
+								</div>
+								<div class="service-list-col2">
+									<h3>branding &amp; identity</h3>
+									<p>Proin iaculis purus digni consequat sem digni ssim. Donec
+										entum digni ssim.
+									</p>
+								</div>
+							</div>
+							<div class="service-list">
+								<div class="service-list-col1">
+									<i class="fa-gear"></i>
+								</div>
+								<div class="service-list-col2">
+									<h3>web development</h3>
+									<p>Proin iaculis purus consequat sem digni ssim. Digni ssim
+										porttitora .
+									</p>
+								</div>
+							</div>
+							<div class="service-list">
+								<div class="service-list-col1">
+									<i class="fa-apple"></i>
+								</div>
+								<div class="service-list-col2">
+									<h3>mobile design</h3>
+									<p>Proin iaculis purus consequat digni sem digni ssim. Purus
+										donec porttitora entum.
+									</p>
+								</div>
+							</div>
+							<div class="service-list">
+								<div class="service-list-col1">
+									<i class="fa-medkit"></i>
+								</div>
+								<div class="service-list-col2">
+									<h3>24/7 Support</h3>
+									<p>Proin iaculis purus consequat sem digni ssim. Sem porttitora
+										entum.
+									</p>
+								</div>
+							</div>
+						</div>
+						<figure
+							class="col-lg-8 col-sm-6  text-right wow fadeInUp delay-05s animated"
+							style="visibility: visible; animation-name: fadeInUp;">
+							<img src="/theme_helmi/static/src/img/macbook-pro.png" alt=""/>
+						</figure>
+					</div>
+				</div>
+			</section>
+		</template>
+		<template id="feature_work_testimonial" name="FEATURED WORK">
+			<section class="main-section alabaster"><!--main-section alabaster-start -->
+				<div class="container">
+					<div class="row">
+						<figure class="col-lg-5 col-sm-4 wow fadeInLeft delay-09s animated"
+							style="visibility: visible; animation-name: fadeInLeft;">
+							<img src="/theme_helmi/static/src/img/iphone.png" alt=""/>
+						</figure>
+						<div class="col-lg-7 col-sm-8 featured-work">
+							<h2>featured work</h2>
+							<P class="padding-b">Proin iaculis purus consequat sem cure digni ssim.
+								Donec porttitora entum suscipit aenean rhoncus posuere odio in
+								tincidunt. Proin iaculis purus consequat sem cure digni ssim.
+								Donec porttitora entum suscipit.
+							</P>
+							<div class="featured-box">
+								<div class="featured-box-col1 wow fadeInRight delay-02s animated"
+									style="visibility: visible; animation-name: fadeInRight;">
+									<i class="fa-magic"></i>
+								</div>
+								<div class="featured-box-col2 wow fadeInRight delay-02s animated"
+									style="visibility: visible; animation-name: fadeInRight;">
+									<h3>magic of theme development</h3>
+									<p>Proin iaculis purus consequat sem cure digni ssim. Donec
+										porttitora entum suscipit aenean rhoncus posuere odio in
+										tincidunt.
+									</p>
+								</div>
+							</div>
+							<div class="featured-box">
+								<div class="featured-box-col1 wow fadeInRight delay-04s animated"
+									style="visibility: visible; animation-name: fadeInRight;">
+									<i class="fa-gift"></i>
+								</div>
+								<div class="featured-box-col2 wow fadeInRight delay-04s animated"
+									style="visibility: visible; animation-name: fadeInRight;">
+									<h3>neatly packaged</h3>
+									<p>Proin iaculis purus consequat sem cure digni ssim. Donec
+										porttitora entum suscipit aenean rhoncus posuere odio in
+										tincidunt.
+									</p>
+								</div>
+							</div>
+							<div class="featured-box">
+								<div class="featured-box-col1 wow fadeInRight delay-06s animated"
+									style="visibility: visible; animation-name: fadeInRight;">
+									<i class="fa-dashboard"></i>
+								</div>
+								<div class="featured-box-col2 wow fadeInRight delay-06s animated"
+									style="visibility: visible; animation-name: fadeInRight;">
+									<h3>SEO optimized</h3>
+									<p>Proin iaculis purus consequat sem cure digni ssim. Donec
+										porttitora entum suscipit aenean rhoncus posuere odio in
+										tincidunt.
+									</p>
+								</div>
+							</div>
+							<a class="Learn-More" href="#">Learn More</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</template>
+		<template id="snippet_servive_1" name="Project snippet">
+			<section class="snippet_servive">
+				<div class="container text-center">
+					<div id="g">
+						<div class="container">
+							<div class="row">
+								<h3>PROJECT DETAILS</h3>
+								<br/>
+								<br/>
+								<div class="col-lg-8 desc">
+									<h4>About This Project</h4>
+									<p>Various versions have evolved over the years. Many desktop
+										publishing packages and web page editors now use Lorem Ipsum.
+										A search for 'lorem ipsum' will uncover many web sites still
+										in their infancy. Many desktop publishing packages and web
+										page editors now use Lorem Ipsum as their default model text,
+										and a search for 'lorem ipsum' will uncover many web sites
+										still in their infancy.
+									</p>
+								</div>
+								<div class="col-lg-4 desc desc-b">
+									<h4>Project Data</h4>
+									<p>
+										<i class="icon-user"></i>
+										Frank Lampard
+										<br/>
+										<i class="icon-tag"></i>
+										Web Design
+										<br/>
+										<i class="icon-time"></i>
+										2013
+										<br/>
+										<i class="icon-globe"></i>
+										www.blacktie.co
+										<br/>
+									</p>
+								</div>
+							</div>
+						</div><!-- /container -->
+					</div><!-- /g -->
+				</div>
+			</section>
+		</template>
+		<template id="snippet_servive_helmi" name="Service snippet">
+			<section class="snippet_servive">
+				<div class="container text-center">
+					<div id="g">
+						<div class="container">
+							<div class="row">
+								<div class="col-lg-12 text-center">
+									<h2 class="section-heading">Services</h2>
+									<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+								</div>
+							</div>
+							<div class="row text-center">
+								<div class="col-md-4">
+									<span class="fa-stack fa-4x">
+										<i class="fa fa-circle fa-stack-2x text-primary"></i>
+										<i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+									</span>
+									<h4 class="service-heading">E-Commerce</h4>
+									<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing
+										elit. Minima maxime quam architecto quo inventore harum ex
+										magni, dicta impedit.
+									</p>
+								</div>
+								<div class="col-md-4">
+									<span class="fa-stack fa-4x">
+										<i class="fa fa-circle fa-stack-2x text-primary"></i>
+										<i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
+									</span>
+									<h4 class="service-heading">Responsive Design</h4>
+									<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing
+										elit. Minima maxime quam architecto quo inventore harum ex
+										magni, dicta impedit.
+									</p>
+								</div>
+								<div class="col-md-4">
+									<span class="fa-stack fa-4x">
+										<i class="fa fa-circle fa-stack-2x text-primary"></i>
+										<i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+									</span>
+									<h4 class="service-heading">Web Security</h4>
+									<p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing
+										elit. Minima maxime quam architecto quo inventore harum ex
+										magni, dicta impedit.
+									</p>
+								</div>
+							</div>
+						</div><!-- /container -->
+					</div><!-- /g -->
+				</div>
+			</section>
+		</template>
+		<template id="snippet_about" name="About snippet">
+			<section id="about">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 text-center">
+							<h2 class="section-heading">About</h2>
+							<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-lg-12">
+							<ul class="timeline">
+								<li>
+									<div class="timeline-image">
+										<img class="img-circle img-responsive" src="/theme_helmi/static/src/img/about/1.jpg"
+											alt=""/>
+									</div>
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<h4>2009-2011</h4>
+											<h4 class="subheading">Our Humble Beginnings</h4>
+										</div>
+										<div class="timeline-body">
+											<p class="text-muted">Lorem ipsum dolor sit amet, consectetur
+												adipisicing elit. Sunt ut voluptatum eius sapiente, totam
+												reiciendis temporibus qui quibusdam, recusandae sit vero
+												unde, sed, incidunt et ea quo dolore laudantium consectetur!
+											</p>
+										</div>
+									</div>
+								</li>
+								<li class="timeline-inverted">
+									<div class="timeline-image">
+										<img class="img-circle img-responsive" src="/theme_helmi/static/src/img/about/2.jpg"
+											alt=""/>
+									</div>
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<h4>March 2011</h4>
+											<h4 class="subheading">An Agency is Born</h4>
+										</div>
+										<div class="timeline-body">
+											<p class="text-muted">Lorem ipsum dolor sit amet, consectetur
+												adipisicing elit. Sunt ut voluptatum eius sapiente, totam
+												reiciendis temporibus qui quibusdam, recusandae sit vero
+												unde, sed, incidunt et ea quo dolore laudantium consectetur!
+											</p>
+										</div>
+									</div>
+								</li>
+								<li>
+									<div class="timeline-image">
+										<img class="img-circle img-responsive" src="/theme_helmi/static/src/img/about/3.jpg"
+											alt=""/>
+									</div>
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<h4>December 2012</h4>
+											<h4 class="subheading">Transition to Full Service</h4>
+										</div>
+										<div class="timeline-body">
+											<p class="text-muted">Lorem ipsum dolor sit amet, consectetur
+												adipisicing elit. Sunt ut voluptatum eius sapiente, totam
+												reiciendis temporibus qui quibusdam, recusandae sit vero
+												unde, sed, incidunt et ea quo dolore laudantium consectetur!
+											</p>
+										</div>
+									</div>
+								</li>
+								<li class="timeline-inverted">
+									<div class="timeline-image">
+										<img class="img-circle img-responsive" src="/theme_helmi/static/src/img/about/4.jpg"
+											alt=""/>
+									</div>
+									<div class="timeline-panel">
+										<div class="timeline-heading">
+											<h4>July 2014</h4>
+											<h4 class="subheading">Phase Two Expansion</h4>
+										</div>
+										<div class="timeline-body">
+											<p class="text-muted">Lorem ipsum dolor sit amet, consectetur
+												adipisicing elit. Sunt ut voluptatum eius sapiente, totam
+												reiciendis temporibus qui quibusdam, recusandae sit vero
+												unde, sed, incidunt et ea quo dolore laudantium consectetur!
+											</p>
+										</div>
+									</div>
+								</li>
+								<li class="timeline-inverted">
+									<div class="timeline-image">
+										<h4>
+											Be Part
+											<br/>
+											Of Our
+											<br/>
+											Story!
+										</h4>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+		</template>
+		<template id="snippet_portfolio" name="Portfolio snippet">
+			<section id="portfolio" class="bg-light-gray">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-12 text-center">
+							<h2 class="section-heading">Portfolio</h2>
+							<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-4 col-sm-6 portfolio-item">
+							<a href="#portfolioModal1"
+								class="portfolio-link portfolio-hover portfolio-hover-content"
+								data-toggle="modal">
+								<img src="/theme_helmi/static/src/img/portfolio/roundicons.png"
+									class="img-responsive" alt=""/>
+							</a>
+							<div class="portfolio-caption">
+								<h4>Round Icons</h4>
+								<p class="text-muted">Graphic Design</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 portfolio-item">
+							<a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+								<img
+									src="/theme_helmi/static/src/img/portfolio/startup-framework.png"
+									class="img-responsive" alt=""/>
+							</a>
+							<div class="portfolio-caption">
+								<h4>Startup Framework</h4>
+								<p class="text-muted">Website Design</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 portfolio-item">
+							<a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+								<img src="/theme_helmi/static/src/img/portfolio/treehouse.png"
+									class="img-responsive" alt=""/>
+							</a>
+							<div class="portfolio-caption">
+								<h4>Treehouse</h4>
+								<p class="text-muted">Website Design</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 portfolio-item">
+							<a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+								<img src="/theme_helmi/static/src/img/portfolio/golden.png"
+									class="img-responsive" alt=""/>
+							</a>
+							<div class="portfolio-caption">
+								<h4>Golden</h4>
+								<p class="text-muted">Website Design</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 portfolio-item">
+							<a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+								<img src="/theme_helmi/static/src/img/portfolio/escape.png"
+									class="img-responsive" alt=""/>
+							</a>
+							<div class="portfolio-caption">
+								<h4>Escape</h4>
+								<p class="text-muted">Website Design</p>
+							</div>
+						</div>
+						<div class="col-md-4 col-sm-6 portfolio-item">
+							<a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+								<img src="/theme_helmi/static/src/img/portfolio/dreams.png"
+									class="img-responsive" alt=""/>
+							</a>
+							<div class="portfolio-caption">
+								<h4>Dreams</h4>
+								<p class="text-muted">Website Design</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</template>
+		<template id="interact_features" name="Interact snippet">
+			<section id="interact">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-6">
+							<div id="description-carousel" class="carousel fade"
+								data-ride="carousel">
+								<div class="carousel-inner">
+									<div class="item">
+										<img src="/theme_helmi/static/src/img/examples/home_3.png"
+											alt=""/>
+									</div>
+									<div class="item active">
+										<img src="/theme_helmi/static/src/img/examples/home_2.png"
+											alt=""/>
+									</div>
+									<div class="item">
+										<img src="/theme_helmi/static/src/img/examples/home_1.png"
+											alt=""/>
+									</div>
+								</div>
+								<ol class="carousel-indicators carousel-indicators-blue">
+									<li data-target="#description-carousel" data-slide-to="0"
+										class=""></li>
+									<li data-target="#description-carousel" data-slide-to="1"
+										class="active"></li>
+									<li data-target="#description-carousel" data-slide-to="2"
+										class=""></li>
+								</ol>
+							</div>
+						</div>
+						<div class="col-md-5 col-md-offset-1">
+							<h4 class="header-text">Easy to integrate</h4>
+							<p id="interact"> With all the apps that users love! Make it easy for
+								users to share, like, post and tweet their favourite things from
+								the app. Be sure to let users know they continue to remain
+								connected while using your app!
+							</p>
+							<a
+								href="http://codedesign.elkind.net/themes/bootstrap-theme-basic-app/"
+								id="Demo" class="btn btn-lg btn-info btn-fill" data-button="info">Get
+								Free Demo
+							</a>
+						</div>
+					</div>
+				</div>
+			</section>
+		</template>
+		<template id="Portfolio2" name="Portfolio Filtering">
+			<section class="main-section paddind" id="Portfolio2">
+				<div class="container">
+					<h2>Portfolio Filtering</h2>
+					<h6>Create A Simple Responsive Portfolio Page with Filtering and
+						Hover Effect.
+					</h6>
+					<ul id="filters" class="clearfix">
+						<li>
+							<span class="filter active" data-filter="app card icon logo web">All</span>
+						</li>
+						<li>
+							<span class="filter" data-filter="app">App</span>
+						</li>
+						<li>
+							<span class="filter" data-filter="card">Card</span>
+						</li>
+						<li>
+							<span class="filter" data-filter="icon">Icon</span>
+						</li>
+						<li>
+							<span class="filter" data-filter="logo">Logo</span>
+						</li>
+						<li>
+							<span class="filter" data-filter="web">Web</span>
+						</li>
+					</ul>
+					<div id="portfoliolist">
+						<div class="portfolio logo" data-cat="logo">
+							<div class="portfolio-wrapper">
+								<img src="/theme_helmi/static/src/img/portfolio/logo/5.jpg"
+									alt=""/>
+								<div class="label">
+									<div class="label-text">
+										<a class="text-title">Bird Document</a>
+										<span class="text-category">Logo</span>
+									</div>
+									<div class="label-bg"></div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio app" data-cat="app">
+							<div class="portfolio-wrapper">
+								<img src="/theme_helmi/static/src/img/portfolio/app/1.jpg"
+									alt=""/>
+								<div class="label">
+									<div class="label-text">
+										<a class="text-title">Visual Infography</a>
+										<span class="text-category">APP</span>
+									</div>
+									<div class="label-bg"></div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio web" data-cat="web">
+							<div class="portfolio-wrapper">
+								<img src="/theme_helmi/static/src/img/portfolio/web/4.jpg"
+									alt=""/>
+								<div class="label">
+									<div class="label-text">
+										<a class="text-title">Sonor's Design</a>
+										<span class="text-category">Web design</span>
+									</div>
+									<div class="label-bg"></div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio card" data-cat="card">
+							<div class="portfolio-wrapper">
+								<img src="/theme_helmi/static/src/img/portfolio/card/1.jpg"
+									alt=""/>
+								<div class="label">
+									<div class="label-text">
+										<a class="text-title">Typography Company</a>
+										<span class="text-category">Business card</span>
+									</div>
+									<div class="label-bg"></div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio app" data-cat="app">
+							<div class="portfolio-wrapper">
+								<img src="/theme_helmi/static/src/img/portfolio/app/3.jpg"
+									alt=""/>
+								<div class="label">
+									<div class="label-text">
+										<a class="text-title">Weatherette</a>
+										<span class="text-category">APP</span>
+									</div>
+									<div class="label-bg"></div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio card" data-cat="card">
+							<div class="portfolio-wrapper">
+								<img src="/theme_helmi/static/src/img/portfolio/card/4.jpg"
+									alt=""/>
+								<div class="label">
+									<div class="label-text">
+										<a class="text-title">BMF</a>
+										<span class="text-category">Business card</span>
+									</div>
+									<div class="label-bg"></div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio card" data-cat="card">
+							<div class="portfolio-wrapper">
+								<img src="/theme_helmi/static/src/img/portfolio/card/5.jpg"
+									alt=""/>
+								<div class="label">
+									<div class="label-text">
+										<a class="text-title">Techlion</a>
+										<span class="text-category">Business card</span>
+									</div>
+									<div class="label-bg"></div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio logo" data-cat="logo">
+							<div class="portfolio-wrapper">
+								<img src="/theme_helmi/static/src/img/portfolio/logo/1.jpg"
+									alt=""/>
+								<div class="label">
+									<div class="label-text">
+										<a class="text-title">KittyPic</a>
+										<span class="text-category">Logo</span>
+									</div>
+									<div class="label-bg"></div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio app" data-cat="app">
+							<div class="portfolio-wrapper">
+								<img src="/theme_helmi/static/src/img/portfolio/app/2.jpg"
+									alt=""/>
+								<div class="label">
+									<div class="label-text">
+										<a class="text-title">Graph Plotting</a>
+										<span class="text-category">APP</span>
+									</div>
+									<div class="label-bg"></div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio card" data-cat="card">
+							<div class="portfolio-wrapper">
+								<img src="/theme_helmi/static/src/img/portfolio/card/2.jpg"
+									alt=""/>
+								<div class="label">
+									<div class="label-text">
+										<a class="text-title">QR Quick Response</a>
+										<span class="text-category">Business card</span>
+									</div>
+									<div class="label-bg"></div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio logo" data-cat="logo">
+							<div class="portfolio-wrapper">
+								<img src="/theme_helmi/static/src/img/portfolio/logo/6.jpg"
+									alt=""/>
+								<div class="label">
+									<div class="label-text">
+										<a class="text-title">Mobi Sock</a>
+										<span class="text-category">Logo</span>
+									</div>
+									<div class="label-bg"></div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio logo" data-cat="logo">
+							<div class="portfolio-wrapper">
+								<img src="/theme_helmi/static/src/img/portfolio/logo/7.jpg"
+									alt=""/>
+								<div class="label">
+									<div class="label-text">
+										<a class="text-title">Village Community Church</a>
+										<span class="text-category">Logo</span>
+									</div>
+									<div class="label-bg"></div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio icon" data-cat="icon">
+							<div class="portfolio-wrapper">
+								<img src="/theme_helmi/static/src/img/portfolio/icon/4.jpg"
+									alt=""/>
+								<div class="label">
+									<div class="label-text">
+										<a class="text-title">Domino's Pizza</a>
+										<span class="text-category">Icon</span>
+									</div>
+									<div class="label-bg"></div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio web" data-cat="web">
+							<div class="portfolio-wrapper">
+								<img src="/theme_helmi/static/src/img/portfolio/web/3.jpg"
+									alt=""/>
+								<div class="label">
+									<div class="label-text">
+										<a class="text-title">Backend Admin</a>
+										<span class="text-category">Web design</span>
+									</div>
+									<div class="label-bg"></div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio icon" data-cat="icon">
+							<div class="portfolio-wrapper">
+								<img src="/theme_helmi/static/src/img/portfolio/icon/1.jpg"
+									alt=""/>
+								<div class="label">
+									<div class="label-text">
+										<a class="text-title">Instagram</a>
+										<span class="text-category">Icon</span>
+									</div>
+									<div class="label-bg"></div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio web" data-cat="web">
+							<div class="portfolio-wrapper">
+								<img src="/theme_helmi/static/src/img/portfolio/web/2.jpg"
+									alt=""/>
+								<div class="label">
+									<div class="label-text">
+										<a class="text-title">Student Guide</a>
+										<span class="text-category">Web design</span>
+									</div>
+									<div class="label-bg"></div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio icon" data-cat="icon">
+							<div class="portfolio-wrapper">
+								<img src="/theme_helmi/static/src/img/portfolio/icon/2.jpg"
+									alt=""/>
+								<div class="label">
+									<div class="label-text">
+										<a class="text-title">Scoccer</a>
+										<span class="text-category">Icon</span>
+									</div>
+									<div class="label-bg"></div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio icon" data-cat="icon">
+							<div class="portfolio-wrapper">
+								<img src="/theme_helmi/static/src/img/portfolio/icon/5.jpg"
+									alt=""/>
+								<div class="label">
+									<div class="label-text">
+										<a class="text-title">3D Map</a>
+										<span class="text-category">Icon</span>
+									</div>
+									<div class="label-bg"></div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio web" data-cat="web">
+							<div class="portfolio-wrapper">
+								<img src="/theme_helmi/static/src/img/portfolio/web/1.jpg"
+									alt=""/>
+								<div class="label">
+									<div class="label-text">
+										<a class="text-title">Note</a>
+										<span class="text-category">Web design</span>
+									</div>
+									<div class="label-bg"></div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio logo" data-cat="logo">
+							<div class="portfolio-wrapper">
+								<img src="/theme_helmi/static/src/img/portfolio/logo/3.jpg"
+									alt=""/>
+								<div class="label">
+									<div class="label-text">
+										<a class="text-title">Native Designers</a>
+										<span class="text-category">Logo</span>
+									</div>
+									<div class="label-bg"></div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio logo" data-cat="logo">
+							<div class="portfolio-wrapper">
+								<img src="/theme_helmi/static/src/img/portfolio/logo/4.jpg"
+									alt=""/>
+								<div class="label">
+									<div class="label-text">
+										<a class="text-title">Bookworm</a>
+										<span class="text-category">Logo</span>
+									</div>
+									<div class="label-bg"></div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio icon" data-cat="icon">
+							<div class="portfolio-wrapper">
+								<img src="/theme_helmi/static/src/img/portfolio/icon/3.jpg"
+									alt=""/>
+								<div class="label">
+									<div class="label-text">
+										<a class="text-title">Sandwich</a>
+										<span class="text-category">Icon</span>
+									</div>
+									<div class="label-bg"></div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio card" data-cat="card">
+							<div class="portfolio-wrapper">
+								<img src="/theme_helmi/static/src/img/portfolio/card/3.jpg"
+									alt=""/>
+								<div class="label">
+									<div class="label-text">
+										<a class="text-title">Reality</a>
+										<span class="text-category">Business card</span>
+									</div>
+									<div class="label-bg"></div>
+								</div>
+							</div>
+						</div>
+						<div class="portfolio logo" data-cat="logo">
+							<div class="portfolio-wrapper">
+								<img src="/theme_helmi/static/src/img/portfolio/logo/2.jpg"
+									alt=""/>
+								<div class="label">
+									<div class="label-text">
+										<a class="text-title">Speciallisterne</a>
+										<span class="text-category">Logo</span>
+									</div>
+									<div class="label-bg"></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</template><!-- container -->
+		<template id="timeline" name="Price table">
+			<section id="timeline">
+				<div class="container">
+					<div class="row">
+						<div class="row">
+							<div class="col-lg-12 text-center">
+								<h2 class="section-heading">About</h2>
+								<h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+							</div>
+						</div>
+						<ul class="timeline">
+							<li class="year">2013</li>
+							<li class="event offset-first">
+								<div class="event-date">
+									Dependent certainty off discovery him his tolerably offending
+									<small>23 October 2013</small>
+								</div>
+								<div class="event-body">
+									<div class="row">
+										<div class="col-md-12">
+											<p>
+												Lorem Ipsum is simply dummy text of the printing and
+												typesetting industry. Lorem Ipsum has been the industry's
+												standard dummy text ever since the 1500s, when an unknown
+												printer took a galley of type and scrambled it to make a
+												type specimen book.
+												<br/>
+												<br/>
+												It has survived not only five centuries, but also the leap
+												into electronic typesetting, remaining essentially
+												unchanged.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="event-footer">
+									<a href="#" class="btn btn-xs btn-three pull-right">Read more</a>
+								</div>
+							</li>
+							<li class="event">
+								<div class="event-date">
+									Dependent certainty off discovery him his tolerably offending
+									<small>20 October 2013</small>
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<div class="event-body">
+											<div class="row">
+												<div class="col-md-12">
+													<img src="http://lorempixel.com/530/330/fashion" class="img-responsive"
+														alt=""/>
+													<p>
+														Lorem Ipsum is simply dummy text of the printing and
+														typesetting industry. Lorem Ipsum has been the industry's
+														standard dummy text ever since the 1500s, when an unknown
+														printer took a galley of type and scrambled it to make a
+														type specimen book.
+														<br/>
+														<br/>
+														It has survived not only five centuries, but also the leap
+														into electronic typesetting, remaining essentially
+														unchanged.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="event-footer">
+									<a href="#" class="btn btn-xs btn-three pull-right">Read more</a>
+								</div>
+							</li>
+							<li class="event">
+								<div class="event-date">
+									Dependent certainty off discovery him his tolerably offending
+									<small>3 October 2013</small>
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<div class="event-body">
+											<div class="row">
+												<div class="col-md-12">
+													<img src="http://lorempixel.com/530/330/nightlife"
+														class="img-responsive" alt=""/>
+													<p>
+														Lorem Ipsum is simply dummy text of the printing and
+														typesetting industry. Lorem Ipsum has been the industry's
+														standard dummy text ever since the 1500s, when an unknown
+														printer took a galley of type and scrambled it to make a
+														type specimen book.
+														<br/>
+														<br/>
+														It has survived not only five centuries, but also the leap
+														into electronic typesetting, remaining essentially
+														unchanged.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="event-footer">
+									<a href="#" class="btn btn-xs btn-three pull-right">Read more</a>
+								</div>
+							</li>
+							<li class="event">
+								<div class="event-date">
+									Dependent certainty off discovery him his tolerably offending
+									<small>30 September 2013</small>
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<div class="event-body">
+											<div class="row">
+												<div class="col-md-12">
+													<iframe src="http://player.vimeo.com/video/66288274?badge=0"
+														height="281"></iframe>
+													<p>
+														Lorem Ipsum is simply dummy text of the printing and
+														typesetting industry. Lorem Ipsum has been the industry's
+														standard dummy text ever since the 1500s, when an unknown
+														printer took a galley of type and scrambled it to make a
+														type specimen book.
+														<br/>
+														<br/>
+														It has survived not only five centuries, but also the leap
+														into electronic typesetting, remaining essentially
+														unchanged.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="event-footer">
+									<a href="#" class="btn btn-xs btn-three pull-right">Read more</a>
+								</div>
+							</li>
+							<li class="clearfix"></li>
+							<li class="year">2012</li>
+							<li class="event offset-first">
+								<div class="event-date">
+									Dependent certainty off discovery him his tolerably offending
+									<small>23 October 2013</small>
+								</div>
+								<div class="event-body">
+									<div class="row">
+										<div class="col-md-12">
+											<p>
+												Lorem Ipsum is simply dummy text of the printing and
+												typesetting industry. Lorem Ipsum has been the industry's
+												standard dummy text ever since the 1500s, when an unknown
+												printer took a galley of type and scrambled it to make a
+												type specimen book.
+												<br/>
+												<br/>
+												It has survived not only five centuries, but also the leap
+												into electronic typesetting, remaining essentially
+												unchanged.
+											</p>
+										</div>
+									</div>
+								</div>
+								<div class="event-footer">
+									<a href="#" class="btn btn-xs btn-three pull-right">Read more</a>
+								</div>
+							</li>
+							<li class="event">
+								<div class="event-date">
+									Dependent certainty off discovery him his tolerably offending
+									<small>20 October 2013</small>
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<div class="event-body">
+											<div class="row">
+												<div class="col-md-12">
+													<img src="http://lorempixel.com/530/330/people" class="img-responsive"
+														alt=""/>
+													<p>
+														Lorem Ipsum is simply dummy text of the printing and
+														typesetting industry. Lorem Ipsum has been the industry's
+														standard dummy text ever since the 1500s, when an unknown
+														printer took a galley of type and scrambled it to make a
+														type specimen book.
+														<br/>
+														<br/>
+														It has survived not only five centuries, but also the leap
+														into electronic typesetting, remaining essentially
+														unchanged.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="event-footer">
+									<a href="#" class="btn btn-xs btn-three pull-right">Read more</a>
+								</div>
+							</li>
+							<li class="event">
+								<div class="event-date">
+									Dependent certainty off discovery him his tolerably offending
+									<small>3 October 2013</small>
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<div class="event-body">
+											<div class="row">
+												<div class="col-md-12">
+													<img src="http://lorempixel.com/530/330/city" class="img-responsive"
+														alt=""/>
+													<p>
+														Lorem Ipsum is simply dummy text of the printing and
+														typesetting industry. Lorem Ipsum has been the industry's
+														standard dummy text ever since the 1500s, when an unknown
+														printer took a galley of type and scrambled it to make a
+														type specimen book.
+														<br/>
+														<br/>
+														It has survived not only five centuries, but also the leap
+														into electronic typesetting, remaining essentially
+														unchanged.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="event-footer">
+									<a href="#" class="btn btn-xs btn-three pull-right">Read more</a>
+								</div>
+							</li>
+							<li class="event">
+								<div class="event-date">
+									Dependent certainty off discovery him his tolerably offending
+									<small>30 September 2013</small>
+								</div>
+								<div class="row">
+									<div class="col-md-12">
+										<div class="event-body">
+											<div class="row">
+												<div class="col-md-12">
+													<iframe src="http://player.vimeo.com/video/66288274?badge=0"
+														height="281"></iframe>
+													<p>
+														Lorem Ipsum is simply dummy text of the printing and
+														typesetting industry. Lorem Ipsum has been the industry's
+														standard dummy text ever since the 1500s, when an unknown
+														printer took a galley of type and scrambled it to make a
+														type specimen book.
+														<br/>
+														<br/>
+														It has survived not only five centuries, but also the leap
+														into electronic typesetting, remaining essentially
+														unchanged.
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="event-footer">
+									<a href="#" class="btn btn-xs btn-three pull-right">Read more</a>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		</template>
+		<template id="price_table2" name="Price table">
+			<section id="price_table2">
+				<ul class="pricing_table text-center">
+					<li class="price_block">
+						<h3>Basic</h3>
+						<div class="price">
+							<div class="price_figure">
+								<span class="price_number">$9.99</span>
+								<span class="price_tenure">per month</span>
+							</div>
+						</div>
+						<ul class="features">
+							<li>2GB Storage</li>
+							<li>5 Clients</li>
+							<li>10 Active Projects</li>
+							<li>10 Colors</li>
+							<li>Free Goodies</li>
+							<li>24/7 Email support</li>
+						</ul>
+						<div class="footer">
+							<a href="#" class="action_button">Buy Now</a>
+						</div>
+					</li>
+					<li class="price_block">
+						<h3>Basic</h3>
+						<div class="price">
+							<div class="price_figure">
+								<span class="price_number">$9.99</span>
+								<span class="price_tenure">per month</span>
+							</div>
+						</div>
+						<ul class="features">
+							<li>2GB Storage</li>
+							<li>5 Clients</li>
+							<li>10 Active Projects</li>
+							<li>10 Colors</li>
+							<li>Free Goodies</li>
+							<li>24/7 Email support</li>
+						</ul>
+						<div class="footer">
+							<a href="#" class="action_button">Buy Now</a>
+						</div>
+					</li>
+					<li class="price_block">
+						<h3>Basic</h3>
+						<div class="price">
+							<div class="price_figure">
+								<span class="price_number">$9.99</span>
+								<span class="price_tenure">per month</span>
+							</div>
+						</div>
+						<ul class="features">
+							<li>2GB Storage</li>
+							<li>5 Clients</li>
+							<li>10 Active Projects</li>
+							<li>10 Colors</li>
+							<li>Free Goodies</li>
+							<li>24/7 Email support</li>
+						</ul>
+						<div class="footer">
+							<a href="#" class="action_button">Buy Now</a>
+						</div>
+					</li>
+					<li class="price_block">
+						<h3>Basic</h3>
+						<div class="price">
+							<div class="price_figure">
+								<span class="price_number">$9.99</span>
+								<span class="price_tenure">per month</span>
+							</div>
+						</div>
+						<ul class="features">
+							<li>2GB Storage</li>
+							<li>5 Clients</li>
+							<li>10 Active Projects</li>
+							<li>10 Colors</li>
+							<li>Free Goodies</li>
+							<li>24/7 Email support</li>
+						</ul>
+						<div class="footer">
+							<a href="#" class="action_button">Buy Now</a>
+						</div>
+					</li>
+				</ul>
+			</section>
+		</template>
+		<template id="place_into_bar" inherit_id="website.snippets"
+			name="Place into bar">
+			<xpath expr="//div[@id='snippet_structure']" position="inside">
+				<t t-snippet="theme_helmi.snippet_carousel"
+					t-thumbnail="/theme_helmi/static/src/img/snippets/s_showcase_slider.jpg"/>
+				<t t-snippet="theme_helmi.snippet_servive_helmi"
+					t-thumbnail="/theme_helmi/static/src/img/snippets/s_process_step.png"/>
+				<t t-snippet="theme_helmi.snippet_about"
+					t-thumbnail="/theme_helmi/static/src/img/snippets/s_image_horiz_2.jpg"/>
+				<t t-snippet="theme_helmi.snippet_portfolio"
+					t-thumbnail="/theme_helmi/static/src/img/snippets/s_image_text_2.jpg"/>
+				<t t-snippet="theme_helmi.feature_work_testimonial"
+					t-thumbnail="/theme_helmi/static/src/img/snippets/s_image_text_2.png"/>
+				<t t-snippet="theme_helmi.interact_features"
+					t-thumbnail="/theme_helmi/static/src/img/snippets/s_big_picture_text.png"/>
+				<t t-snippet="theme_helmi.Portfolio2"
+					t-thumbnail="theme_helmi/static/src/img/snippets/s_cubes_reversed.png"/>
+				<t t-snippet="theme_helmi.price_table2"
+					t-thumbnail="theme_helmi/static/src/img/snippets/s_comparison.png"/>
+				<t t-snippet="theme_helmi.timeline"
+					t-thumbnail="theme_helmi/static/src/img/snippets/s_showcase.jpg"/>
+			</xpath>
+		</template>
+	</data>
+</openerp>

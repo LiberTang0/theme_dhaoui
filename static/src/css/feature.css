@@ -1,0 +1,451 @@
+.dynamicTile .col-sm-2.col-xs-4 {
+	padding: 5px;
+}
+
+.dynamicTile .col-sm-4.col-xs-8 {
+	padding: 5px;
+}
+
+#tile1 {
+	background: rgb(0, 172, 238);
+}
+
+#tile2 {
+	background: rgb(243, 243, 243);
+}
+
+#tile3 {
+	background: rgb(71, 193, 228);
+}
+
+#tile4 {
+	background-image:
+		url('http://handsontek.net/demoimages/tiles/facebook.png');
+	background-size: cover;
+}
+
+#tile5 {
+	background: rgb(175, 26, 63);
+}
+
+#tile6 {
+	background: rgb(62, 157, 215);
+}
+
+#tile7 {
+	background: white;
+}
+
+#tile8 {
+	background: rgb(209, 70, 37);
+}
+
+#tile9 {
+	background: rgb(0, 142, 0);
+}
+
+#tile10 {
+	background: rgb(0, 93, 233);
+}
+.navbar-nav > li > .dropdown-menu{
+	
+	z-index: 100;
+}
+.fixed-back{
+	position: relative;
+	background-attachment: fixed;
+	width:100%;
+	height:400px;
+    background-image: url('/theme_helmi/static/src/img/educ/educ.jpg');
+        background-size: 100% 700px;
+}
+.grettemplate{
+	
+	color:#FFFFFF;
+}
+header{
+	z-index: 80;
+	
+}
+@media (min-width: 768px)
+#services {
+    padding: 50px 0;
+}
+#timeline	{
+	margin-top:60px;
+	}
+
+section , #features, #Portfolio2, #about	{
+    padding: 50px 0;
+}
+#contactForm h1 {
+	
+	color:grey;
+}
+
+#fountainTextG{
+	width:480px;
+	margin-top: 100px;
+    margin-left: 400px;
+}
+
+.fountainTextG{
+	color:rgb(0,0,0);
+	font-family:Arial;
+	font-size:50px;
+	text-decoration:none;
+	font-weight:normal;
+	font-style:normal;
+	float:left;
+	animation-name:bounce_fountainTextG;
+		-o-animation-name:bounce_fountainTextG;
+		-ms-animation-name:bounce_fountainTextG;
+		-webkit-animation-name:bounce_fountainTextG;
+		-moz-animation-name:bounce_fountainTextG;
+	animation-duration:2.09s;
+		-o-animation-duration:2.09s;
+		-ms-animation-duration:2.09s;
+		-webkit-animation-duration:2.09s;
+		-moz-animation-duration:2.09s;
+	animation-iteration-count:infinite;
+		-o-animation-iteration-count:infinite;
+		-ms-animation-iteration-count:infinite;
+		-webkit-animation-iteration-count:infinite;
+		-moz-animation-iteration-count:infinite;
+	animation-direction:normal;
+		-o-animation-direction:normal;
+		-ms-animation-direction:normal;
+		-webkit-animation-direction:normal;
+		-moz-animation-direction:normal;
+	transform:scale(.5);
+		-o-transform:scale(.5);
+		-ms-transform:scale(.5);
+		-webkit-transform:scale(.5);
+		-moz-transform:scale(.5);
+}#fountainTextG_1{
+	animation-delay:0.75s;
+		-o-animation-delay:0.75s;
+		-ms-animation-delay:0.75s;
+		-webkit-animation-delay:0.75s;
+		-moz-animation-delay:0.75s;
+}
+#fountainTextG_2{
+	animation-delay:0.9s;
+		-o-animation-delay:0.9s;
+		-ms-animation-delay:0.9s;
+		-webkit-animation-delay:0.9s;
+		-moz-animation-delay:0.9s;
+}
+#fountainTextG_3{
+	animation-delay:1.05s;
+		-o-animation-delay:1.05s;
+		-ms-animation-delay:1.05s;
+		-webkit-animation-delay:1.05s;
+		-moz-animation-delay:1.05s;
+}
+#fountainTextG_4{
+	animation-delay:1.2s;
+		-o-animation-delay:1.2s;
+		-ms-animation-delay:1.2s;
+		-webkit-animation-delay:1.2s;
+		-moz-animation-delay:1.2s;
+}
+#fountainTextG_5{
+	animation-delay:1.35s;
+		-o-animation-delay:1.35s;
+		-ms-animation-delay:1.35s;
+		-webkit-animation-delay:1.35s;
+		-moz-animation-delay:1.35s;
+}
+#fountainTextG_6{
+	animation-delay:1.5s;
+		-o-animation-delay:1.5s;
+		-ms-animation-delay:1.5s;
+		-webkit-animation-delay:1.5s;
+		-moz-animation-delay:1.5s;
+}
+#fountainTextG_7{
+	animation-delay:1.64s;
+		-o-animation-delay:1.64s;
+		-ms-animation-delay:1.64s;
+		-webkit-animation-delay:1.64s;
+		-moz-animation-delay:1.64s;
+}
+#fountainTextG_8{
+	animation-delay:1.79s;
+		-o-animation-delay:1.79s;
+		-ms-animation-delay:1.79s;
+		-webkit-animation-delay:1.79s;
+		-moz-animation-delay:1.79s;
+}
+#fountainTextG_9{
+	animation-delay:1.94s;
+		-o-animation-delay:1.94s;
+		-ms-animation-delay:1.94s;
+		-webkit-animation-delay:1.94s;
+		-moz-animation-delay:1.94s;
+}
+#fountainTextG_10{
+	animation-delay:2.09s;
+		-o-animation-delay:2.09s;
+		-ms-animation-delay:2.09s;
+		-webkit-animation-delay:2.09s;
+		-moz-animation-delay:2.09s;
+}
+#fountainTextG_11{
+	animation-delay:2.24s;
+		-o-animation-delay:2.24s;
+		-ms-animation-delay:2.24s;
+		-webkit-animation-delay:2.24s;
+		-moz-animation-delay:2.24s;
+}
+#fountainTextG_12{
+	animation-delay:2.39s;
+		-o-animation-delay:2.39s;
+		-ms-animation-delay:2.39s;
+		-webkit-animation-delay:2.39s;
+		-moz-animation-delay:2.39s;
+}
+#fountainTextG_13{
+	animation-delay:2.54s;
+		-o-animation-delay:2.54s;
+		-ms-animation-delay:2.54s;
+		-webkit-animation-delay:2.54s;
+		-moz-animation-delay:2.54s;
+}
+#fountainTextG_14{
+	animation-delay:2.69s;
+		-o-animation-delay:2.69s;
+		-ms-animation-delay:2.69s;
+		-webkit-animation-delay:2.69s;
+		-moz-animation-delay:2.69s;
+}
+
+
+
+
+@keyframes bounce_fountainTextG{
+	0%{
+		transform:scale(1);
+		color:rgb(0,0,0);
+	}
+
+	100%{
+		transform:scale(.5);
+		color:rgb(255,255,255);
+	}
+}
+
+@-o-keyframes bounce_fountainTextG{
+	0%{
+		-o-transform:scale(1);
+		color:rgb(0,0,0);
+	}
+
+	100%{
+		-o-transform:scale(.5);
+		color:rgb(255,255,255);
+	}
+}
+
+@-ms-keyframes bounce_fountainTextG{
+	0%{
+		-ms-transform:scale(1);
+		color:rgb(0,0,0);
+	}
+
+	100%{
+		-ms-transform:scale(.5);
+		color:rgb(255,255,255);
+	}
+}
+
+@-webkit-keyframes bounce_fountainTextG{
+	0%{
+		-webkit-transform:scale(1);
+		color:rgb(0,0,0);
+	}
+
+	100%{
+		-webkit-transform:scale(.5);
+		color:rgb(255,255,255);
+	}
+}
+
+@-moz-keyframes bounce_fountainTextG{
+	0%{
+		-moz-transform:scale(1);
+		color:rgb(0,0,0);
+	}
+
+	100%{
+		-moz-transform:scale(.5);
+		color:rgb(255,255,255);
+	}
+}
+
+
+
+#interact {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    line-height: 28px;
+    font-size: 20px;
+    font-weight: 400;
+}
+#description-carousel {
+    opacity: 1;
+    -webkit-transition: opacity 0.15s linear;
+    -o-transition: opacity 0.15s linear;
+    transition: opacity 0.15s linear;
+}
+.tilecaption {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	margin: 0 !important;
+	text-align: center;
+	color: white;
+	font-family: Segoe UI;
+	font-weight: lighter;
+}
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+ 
+* {
+    margin: 0; 
+    padding: 0;
+}
+        
+.pricing_table {
+    line-height: 150%; 
+    font-size: 12px; 
+    margin: 0 auto; 
+    width: 75%; 
+    max-width: 800px; 
+    padding-top: 10px;
+    margin-top: 100px;
+}
+ 
+.price_block {
+    width: 100%; 
+    color: #fff; 
+    float: left; 
+    list-style-type: none; 
+    transition: all 0.25s; 
+    position: relative; 
+    box-sizing: border-box;
+    border-right:5px solid  #333;   
+    margin-bottom: 10px; 
+    border-bottom: 1px solid transparent; 
+}
+.pricing_table h3 {
+    text-transform: uppercase; 
+    padding: 5px 0; 
+    background: #333; 
+    margin: -10px 0 1px 0;
+     border:5px solid  #333; 
+    color:#FFFFFF;
+    font-weight: bold; 
+}
+.price {
+    display: table; 
+    background: #444; 
+    width: 100%; 
+    height: 70px; 
+}
+.price_figure {
+    font-size: 24px; 
+    text-transform: uppercase; 
+    vertical-align: middle; 
+    display: table-cell;
+}
+.price_number {
+    font-weight: bold; 
+    display: block;
+}
+.price_tenure {
+    font-size: 11px; 
+}
+.features {
+    background: #DEF0F4; 
+    color: #000;
+}
+.features li {
+    padding: 8px 15px;
+    border-bottom: 1px solid #ccc; 
+    font-size: 11px; 
+    list-style-type: none;
+}
+.price_block .footer {
+    padding: 15px; 
+    background: #DEF0F4;
+}
+.team-member .img-responsive{
+    display: block;
+    width: 90%;
+    height: 250px;
+}
+.action_button {
+    text-decoration: none; 
+    color: #fff; 
+    font-weight: bold; 
+    border-radius: 5px; 
+    background: linear-gradient(#666, #333); 
+    padding: 5px 20px; 
+    font-size: 11px; 
+    text-transform: uppercase;
+}
+.price_block:hover {
+    box-shadow: 0 0 0px 5px rgba(0, 0, 0, 0.5); 
+    transform: scale(1.04) translateY(-5px); 
+    z-index: 1; 
+    border-bottom: 0 none;
+     border:0px solid transparent; 
+}
+.price_block:hover .price {
+    background:linear-gradient(#DB7224, #F9B84A); 
+    box-shadow: inset 0 0 45px 1px #DB7224;
+}
+.price_block:hover h3 {
+    background: #222;
+}
+.price_block:hover .action_button {
+    background: linear-gradient(#F9B84A, #DB7224); 
+}
+@media only screen and (min-width : 480px) and (max-width : 768px) {
+    .price_block {width: 50%;}
+    .price_block:nth-child(odd) {border-right: 1px solid transparent;}
+    .price_block:nth-child(3) {clear: both;}
+     
+    .price_block:nth-child(odd):hover {border: 0 none;}
+}
+@media only screen and (min-width : 768px){
+    .price_block {width: 25%;}
+    .price_block {border-right: 1px solid transparent; border-bottom: 0 none;}
+    .price_block:last-child {border-right: 0 none;}
+     
+    .price_block:hover {border: 0 none;}
+}
+
+
+.progress {
+	margin-left:140px;
+    position: relative;
+	height: 25px;
+}
+.progress > .progress-type {
+	position: absolute;
+	left: 0px;
+	font-weight: 800;
+	padding: 3px 30px 2px 10px;
+	color: rgb(255, 255, 255);
+	background-color: rgba(25, 25, 25, 0.2);
+}
+.progress > .progress-completed {
+	position: absolute;
+	right: 0px;
+	font-weight: 800;
+	padding: 3px 10px 2px;
+}

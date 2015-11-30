@@ -1,0 +1,46 @@
+<openerp>
+	<data>
+		<template id="mystyle" name="My style" inherit_id="website.assets_frontend">
+			<xpath expr="link[last()]" position="after">
+				<link href="/theme_helmi/static/src/css/style.less" rel="stylesheet"
+					type="text/less"/>
+				<link href="/theme_helmi/static/src/css/agency.css" rel="stylesheet"
+					type="text/css"/>
+				<link href="/theme_helmi/static/src/css/feature.css" rel="stylesheet"
+					type="text/css"/>
+				<link href="/theme_helmi/static/src/css/responsive.css" rel="stylesheet"
+					type="text/css"/>
+				<link href="/theme_helmi/static/src/css/animate.css" rel="stylesheet"
+					type="text/css"/>
+				<link href="/theme_helmi/static/src/css/normalize.css" rel="stylesheet"
+					type="text/css"/>
+				<link href="/theme_helmi/static/src/css/layout.css" rel="stylesheet"
+					type="text/css"/>
+				<link href="/theme_helmi/static/src/css/main.css" rel="stylesheet"
+					type="text/css"/>
+				<link href="/theme_helmi/static/src/css/style.css" rel="stylesheet"
+					type="text/css"/>
+				<link href="/theme_helmi/static/src/css/font_awesome_min.css"
+					rel="stylesheet" type="text/css"/>
+				<link rel="stylesheet" href="/theme_helmi/static/src/css/master.css"
+					media="screen"/>
+				<link rel="stylesheet" href="/theme_helmi/static/src/css/reset.css"
+					media="screen"/>
+				<link rel="stylesheet" href="/theme_helmi/static/src/css/timline.css"
+					media="screen"/>
+				<script type="text/javascript"
+					src="/theme_helmi/static/src/js/css-browser-select.js"></script>
+				<script src="/theme_helmi/static/src/js/agency.js"></script>
+				<script src="/theme_helmi/static/src/js/Chart.js"></script>
+				<script src="/theme_helmi/static/src/js/main.js"></script>
+				<script src="/theme_helmi/static/src/js/classie.js"></script>
+				<script src="/theme_helmi/static/src/js/cbpAnimatedHeader.js"></script>
+				<script src="/theme_helmi/static/src/js/feature.js"></script>
+				<script src="/theme_helmi/static/src/js/wow.js"></script>
+				<script src="/theme_helmi/static/src/js/jquery.easing.min.js"></script>
+				<script src="/theme_helmi/static/src/js/jquery.mixitup.min.js"></script>
+				<script src="/theme_helmi/static/src/js/profilio.js"></script>
+			</xpath>
+		</template>
+	</data>
+</openerp>
