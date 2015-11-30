@@ -1,9 +1,9 @@
 {
-"name": "theme dhaoui",
+"name": "theme Hunter",
 "version": "1.0",
 "depends":['website', 'website_less'],
 "author": "Helmi Dhaoui",
-"category": "Category",
+'category': 'Theme/Services',
 "description": """ this module provide:""",
 
 "init_xml":[],
